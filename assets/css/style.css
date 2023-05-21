@@ -8,35 +8,74 @@
 
 /* main structure */
 
-nav {
-    text-align: center;
-    padding: 20px 0;
-    background: yellow;
+html {
+    background-color: rgb(202, 202, 53);
+    color: navy;
 }
 
 h1 {
     text-align: center;
     font-family: Josefin Sans, sans-serif;
     padding-top: 5%;
-    size: 230%;
-    color: navy;
-    background: yellow;
+    margin-bottom: 30px;
+    font-size: 400%;
+}
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 5px solid green;
+    border-bottom: 5px solid green;
+}
+
+a {
+    text-decoration: none;
+    padding: 0 20px;
+    font-size: 140%;
+}
+
+a:hover {
+    color: blue;
+    font-size: 145%;
+    border: 3px solid green;
+    border-radius: 30%;
 }
 
 h2 {
+    padding-left: 10px;
+    padding-bottom: 30px;
     font-family: Oswald, sans-serif;
-    color: navy;
+    font-size: 250%;
+}
+
+h4 {
+    padding: 15px 0 30px 30px;
+    font-size: 150%;
+}
+
+p {
+    padding-left: 50px;
+    font-family: Lato, sans-serif;
+    font-size: 120%;
+}
+
+#main-method {
+    padding-bottom: 50px;
 }
 
 section {
-    background: yellow;
+    padding: 10px 60px 60px;
+}
+
+.divider {
+    border: 1px solid black;
 }
 
 /* footer */
 
 footer {
-    background: yellow;
     height: 100px;
+    margin-bottom: 0;
 }
 
 #social-links {
