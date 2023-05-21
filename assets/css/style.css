@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:wght@300&family=Oswald&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* main structure */
+
+nav {
+    text-align: center;
+    padding: 20px 0;
+    background: yellow;
+}
+
+h1 {
+    text-align: center;
+    font-family: Josefin Sans, sans-serif;
+    padding-top: 5%;
+    size: 230%;
+    color: navy;
+    background: yellow;
+}
+
+h2 {
+    font-family: Oswald, sans-serif;
+    color: navy;
+}
+
+section {
+    background: yellow;
+}
+
+/* footer */
+
+footer {
+    background: yellow;
+    height: 100px;
+}
+
+#social-links {
+    text-align: center;
+    padding: 50px 20px 0;
+}
+
+#social-links div {
+    display: inline;
+}
+
+#social-links i {
+    font-size: 260%;
+    padding: 0 30px;
+}
