@@ -9,7 +9,7 @@
 /* main structure */
 
 html {
-    background-color: rgb(202, 202, 53);
+    background-color: rgb(210, 255, 210);
     color: navy;
 }
 
@@ -59,16 +59,47 @@ p {
     font-size: 120%;
 }
 
-#main-method {
-    padding-bottom: 50px;
+table {
+    border-spacing: 0;
+    width: 100%;
+}
+
+th {
+    font-size: 120%;
+    text-align: center;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 4px 8px;
+    width: 38%;
 }
 
 section {
     padding: 10px 60px 60px;
 }
 
+
+/* ids*/
+
+#main-method {
+    padding-bottom: 50px;
+}
+
+
+/* classes */
+
 .divider {
     border: 1px solid black;
+}
+
+.white {
+    background-color: yellow;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 255);
 }
 
 /* footer */
