@@ -1,39 +1,74 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Perfect Egg
 
-Welcome,
+Welcome to The Perfect Egg. I gathered my cooking knowledge accumulated over the years and my refound love for coding to bring you an easily understandable site about how to correctly cook an egg.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Features
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+### Body
 
-## Codeanywhere Reminders
+The site consists of 4 main sections:
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+- The Title, which includes an Image and a Lightgreen background,
+- The Introduction and Poaching Method,
+- The Sauté Method,
+- The Boiling Method and Social Media Links.
 
-`python3 -m http.server`
+I decided to keep to the theme of the mighty egg. And such, I made:
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+- the background grey, the shell,
+- the bottom and top layer of the navigation bar + the background of the sides of the tables white, the eggwhites,
+- the background of the navigation bar + the background of the middle of the tables yellow, the yolks.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+### Navigation Bar
 
-`http_server`
+- Residing on top of the page in a fixed position, the navigation bar allows the user to quickly go from one part of the page to the other.
+- When hovered over, it changes size, color and a green border with round edges appears around it.
+- I decided to make it fixed, so that the user doesn't have to scroll all the way to the top of the page, but can directly go from one cooking method to the other.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### The Cooking Methods
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+Each cooking method includes:
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+- A short definiton of the method.
+- Different dishes that can be cooked using the method with their unique, fitting image.
+- Each dish has their defined table, which helps the user understand: what to do, why to do it and some aditional information.
 
-To log into the Heroku toolbelt CLI:
+### End Note + Footer
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- The end note is a farewell to the user and a reminder to check out the socials. I feel that the user will have a sweeter good-bye, if we wish them something nice at the end.
+- The footer includes the socials. Each social link has an interactive icon, that changes size and turns into their respective color when hovered over. Blue for Facebook, teal for Twitter, red for Youtube, and pink for Instagram.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Testing
 
----
+### Validator Testing
 
-Happy coding!
+- HTML
+  - No errors were returned when passing through the official W3C validator
+- CSS
+  - No errors were found when passing through the official Jigsaw validator
+
+### Unfixed Bugs
+
+The Social media icons sometimes don't load. Not sure if it's a mistake in the code, or just the icons in themselves being buggy/heavy to load.
+
+## Deployment
+
+- The site was deployed to [AWS Amplify](https://aws.amazon.com/amplify/). The steps to deploy are as follows:
+  - Go to AWS Amazon site. Click on the AWS Amplify and register to the page.
+  - Search for AWS Amplify and click on it.
+  - Click on "New app - Host wep app".
+  - Select the GitHub Icon - Continue.
+  - Select a repository to deposit. Select Main branch. Click on next.
+  - The site will automatically interpret the code to the AWS standarts. Press on next.
+  - Your site is up. Go to All apps > "your site's name" and the url should be under the "main" section.
+
+## Credits
+
+### Content
+
+- Most of the text was adapted from the Pauli Lehrbuch der Küche book.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+
+### Media
+
+- All images were taken from [Stock Adobe](https://stock.adobe.com).
