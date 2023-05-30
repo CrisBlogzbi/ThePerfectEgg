@@ -27,9 +27,13 @@ h1 {
 
 nav {
     text-align: center;
-    padding: 20px 0;
-    border-top: 5px solid green;
-    border-bottom: 5px solid green;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color: yellow;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
 }
 
 nav a {
@@ -151,6 +155,16 @@ section {
         width: 55%;
         height: 55%;
     }
+
+    nav {
+        font-size: 80%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    nav {
+        font-size: 60%;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -162,6 +176,10 @@ section {
     #header-egg {
         width: 65%;
         height: 65%;
+    }
+
+    nav {
+        font-size: 50%;
     }
 }
 
