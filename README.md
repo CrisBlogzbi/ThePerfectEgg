@@ -70,16 +70,15 @@ The Social media icons sometimes don't load. Not sure if it's a mistake in the c
 
 ## Deployment
 
-- The site was deployed to [AWS Amplify](https://aws.amazon.com/amplify/). The steps to deploy are as follows:
-  - Go to AWS Amazon site. Click on the AWS Amplify and register to the page.
-  - Search for AWS Amplify and click on it.
-  - Click on "New app - Host wep app".
-  - Select the GitHub Icon - Continue.
-  - Select a repository to deposit. Select Main branch. Click on next.
-  - The site will automatically interpret the code to the AWS standarts. Press on next.
-  - Your site is up. Go to All apps > "your site's name" and the url should be under the "main" section.
+The site was deployed to GitHub pages. The steps to deploy are as follows:
 
-The live link can be found here - https://main.d1rnxuupop0nkp.amplifyapp.com
+- In the GitHub repository, navigate to the Settings tab
+- In the "Code and automation" click on the "Pages" tab.
+- Choose the Source as "Deploy from branch" and Branch "main/root"
+- Choose an allowed custom domain and click on "save"
+- You will find the link to your site at the top of the page.
+
+The live link can be found here - https://crisblogzbi.github.io/ThePerfectEgg/
 
 ## Credits
 
@@ -87,6 +86,7 @@ The live link can be found here - https://main.d1rnxuupop0nkp.amplifyapp.com
 
 - Most of the text was adapted from the Pauli Lehrbuch der Küche book.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- The ReadMe documentation was inspired by [Code Institute](https://codeinstitute.net/global/full-stack-software-development-diploma/?utm_term=code%20institute&utm_campaign=CI+-+ROW+-+Search+-+Brand&utm_source=adwords&utm_medium=ppc&hsa_acc=8983321581&hsa_cam=15207113220&hsa_grp=130324141420&hsa_ad=635849256710&hsa_src=g&hsa_tgt=kwd-319867646331&hsa_kw=code%20institute&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad=1&gclid=CjwKCAjwvdajBhBEEiwAeMh1UxwHrDH9dhK1hGH6Xgr0re4Gx4eQU64uWmel84rTJ7eKsrSppBQrXBoCPJMQAvD_BwE)
 
 ### Media
 
