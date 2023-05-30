@@ -8,15 +8,18 @@
 
 /* main structure */
 
-html {
-    background-color: rgb(210, 255, 210);
+body {
     color: navy;
+    background-color: lightgrey;
+}
+
+header {
+    background-color: rgb(161, 248, 161);
 }
 
 h1 {
     text-align: center;
     font-family: Josefin Sans, sans-serif;
-    padding-top: 5%;
     margin-bottom: 30px;
     font-size: 400%;
 }
@@ -28,13 +31,13 @@ nav {
     border-bottom: 5px solid green;
 }
 
-a {
+nav a {
     text-decoration: none;
     padding: 0 20px;
     font-size: 140%;
 }
 
-a:hover {
+nav a:hover {
     color: blue;
     font-size: 145%;
     border: 3px solid green;
@@ -87,6 +90,13 @@ section {
     padding-bottom: 50px;
 }
 
+#header-egg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    border-radius: 50%;
+}
 
 /* classes */
 
@@ -106,7 +116,8 @@ section {
 
 footer {
     height: 100px;
-    margin-bottom: 0;
+    padding-bottom: 20px;
+    background-color: rgb(161, 248, 161);
 }
 
 #social-links {
@@ -121,4 +132,25 @@ footer {
 #social-links i {
     font-size: 260%;
     padding: 0 30px;
+    color: navy;
+}
+
+#facebook:hover {
+    font-size: 350%;
+    color: blue;
+}
+
+#twitter:hover {
+    font-size: 350%;
+    color: aqua;
+}
+
+#youtube:hover {
+    font-size: 350%;
+    color: red;
+}
+
+#instagram:hover {
+    font-size: 350%;
+    color: pink;
 }
