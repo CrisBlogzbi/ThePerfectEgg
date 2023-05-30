@@ -2,9 +2,13 @@
 
 Welcome to The Perfect Egg. I gathered my cooking knowledge accumulated over the years and my refound love for coding to bring you an easily understandable site about how to correctly cook an egg.
 
+![Header](/assets/readme-images/header.png)
+
 ## Features
 
 ### Body
+
+![Size Responsive](/assets/readme-images/size-responsive.png)
 
 The site consists of 4 main sections:
 
@@ -21,22 +25,35 @@ I decided to keep to the theme of the mighty egg. And such, I made:
 
 ### Navigation Bar
 
+![Nav Bar](/assets/readme-images/nav-bar.png)
+
 - Residing on top of the page in a fixed position, the navigation bar allows the user to quickly go from one part of the page to the other.
 - When hovered over, it changes size, color and a green border with round edges appears around it.
 - I decided to make it fixed, so that the user doesn't have to scroll all the way to the top of the page, but can directly go from one cooking method to the other.
+
+![Nav Bar Hover](/assets/readme-images/nav-bar-hover.png)
 
 ### The Cooking Methods
 
 Each cooking method includes:
 
+![Dish Example](/assets/readme-images/dish-outlay.png)
+
 - A short definiton of the method.
 - Different dishes that can be cooked using the method with their unique, fitting image.
 - Each dish has their defined table, which helps the user understand: what to do, why to do it and some aditional information.
+
+![Table](/assets/readme-images/table-outlay.png)
 
 ### End Note + Footer
 
 - The end note is a farewell to the user and a reminder to check out the socials. I feel that the user will have a sweeter good-bye, if we wish them something nice at the end.
 - The footer includes the socials. Each social link has an interactive icon, that changes size and turns into their respective color when hovered over. Blue for Facebook, teal for Twitter, red for Youtube, and pink for Instagram.
+
+![Facebook](/assets/readme-images/facebook.png)
+![Twitter](/assets/readme-images/twitter.png)
+![Youtube](/assets/readme-images/youtube.png)
+![Instagram](/assets/readme-images/instagram.png)
 
 ## Testing
 
@@ -61,6 +78,8 @@ The Social media icons sometimes don't load. Not sure if it's a mistake in the c
   - Select a repository to deposit. Select Main branch. Click on next.
   - The site will automatically interpret the code to the AWS standarts. Press on next.
   - Your site is up. Go to All apps > "your site's name" and the url should be under the "main" section.
+
+The live link can be found here - https://main.d1rnxuupop0nkp.amplifyapp.com
 
 ## Credits
 
