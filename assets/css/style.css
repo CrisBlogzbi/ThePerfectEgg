@@ -395,6 +395,17 @@ footer {
     background-color: rgb(161, 248, 161);
 }
 
+#footer-p {
+    color: rgb(216, 216, 32); 
+    background-color: white; 
+    font-size: 150%; 
+    width: 100%; 
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
 #social-links {
     text-align: center;
     padding: 50px 20px 0;
