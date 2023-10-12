@@ -66,9 +66,9 @@ Each cooking method includes:
   - No errors were found when passing through the official Jigsaw validator
   ![Jigsaw Validator](/assets/readme-images/css-validator.png)
 - Lighthouse
- - Desktop test
+  - Desktop test
  ![Lighthouse Desktop](/assets/readme-images/lighthouse-desktop.png)
- - Mobile test
+  - Mobile test
  ![Mobile Desktop](/assets/readme-images/lighthouse-mobile.png)
 
 ### Unfixed Bugs
