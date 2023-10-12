@@ -73,7 +73,7 @@ Each cooking method includes:
 
 ### Unfixed Bugs
 
-The Social media icons sometimes don't load. Not sure if it's a mistake in the code, or just the icons in themselves being buggy/heavy to load.
+- The Social media icons sometimes don't load. Not sure if it's a mistake in the code, or just the icons in themselves being buggy/heavy to load.
 
 ## Deployment
 
