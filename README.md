@@ -60,9 +60,16 @@ Each cooking method includes:
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official W3C validator
+  - No errors were returned when passing through the official W3C validator, only a warning which doesn't critically affect the site.
+  ![W3C Validator](/assets/readme-images/html-validator.png)
 - CSS
   - No errors were found when passing through the official Jigsaw validator
+  ![Jigsaw Validator](/assets/readme-images/css-validator.png)
+- Lighthouse
+ - Desktop test
+ ![Lighthouse Desktop](/assets/readme-images/lighthouse-desktop.png)
+ - Mobile test
+ ![Mobile Desktop](/assets/readme-images/lighthouse-mobile.png)
 
 ### Unfixed Bugs
 
