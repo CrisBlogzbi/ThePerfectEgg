@@ -183,7 +183,7 @@ section {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 620px) {
     .egg-image {
         width: 65%;
         height: 65%;
@@ -203,7 +203,7 @@ section {
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 420px) {
     .egg-image {
         width: 80%;
         height: 80%;
@@ -220,6 +220,7 @@ section {
 
     nav {
         font-size: 40%;
+        padding: 0 5 px;
     }
 }
 
