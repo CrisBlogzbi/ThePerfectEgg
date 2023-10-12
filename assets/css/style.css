@@ -222,11 +222,43 @@ section {
     nav {
         font-size: 80%;
     }
+    #social-links {
+        font-size: 0.8rem;
+    }
+
+    #social-links i {
+        font-size: 50%;
+        padding: 0 5px;
+    }
+
+    #facebook:hover {
+        font-size: 80%;
+    }
+    
+    #twitter:hover {
+        font-size: 80%;
+    }
+    
+    #youtube:hover {
+        font-size: 80%;
+    }
+    
+    #instagram:hover {
+        font-size: 80%;
+    }
 }
 
 @media screen and (max-width: 460px) {
     nav {
         font-size: 70%;
+    }
+
+    #social-links {
+        font-size: 0.6rem;
+    }
+
+    #social-links i {
+        font-size: 50%;
     }
 }
 
@@ -235,16 +267,41 @@ section {
         width: 80%;
         height: 80%;
     }
+    
     nav {
         font-size: 60%;
         padding: 0 10px;
         margin: 0;
+    }
+    
+    #social-links {
+        font-size: 0.5rem;
+    }
+
+    #facebook:hover {
+        font-size: 70%;
+    }
+    
+    #twitter:hover {
+        font-size: 70%;
+    }
+    
+    #youtube:hover {
+        font-size: 70%;
+    }
+    
+    #instagram:hover {
+        font-size: 70%;
     }
 }
 
 @media screen and (max-width: 390px) {
     nav {
         font-size: 50%;
+    }
+    #social-links {
+        font-size: 0.5rem;
+        display: grid;
     }
 }
 
