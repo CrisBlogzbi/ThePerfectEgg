@@ -243,7 +243,7 @@ section {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 440px) {
     .egg-image {
         width: 80%;
         height: 80%;
@@ -255,13 +255,85 @@ section {
     }
 
     body {
-        font-size: 60%;
+        font-size: 70%;
         padding: 0;
         margin: 0;
     }
 
     nav {
-        font-size: 100%;
+        font-size: 60%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .egg-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    #header-egg {
+        width: 50%;
+        height: 50%;
+    }
+
+    body {
+        font-size: 70%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        font-size: 55%;
+        padding: 0 10px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .egg-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    #header-egg {
+        width: 50%;
+        height: 50%;
+    }
+
+    body {
+        font-size: 70%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        font-size: 55%;
+        padding: 0 10px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .egg-image {
+        width: 80%;
+        height: 80%;
+    }
+
+    #header-egg {
+        width: 50%;
+        height: 50%;
+    }
+
+    body {
+        font-size: 70%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav {
+        font-size: 50%;
         padding: 0;
         margin: 0;
     }
