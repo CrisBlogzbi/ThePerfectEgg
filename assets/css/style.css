@@ -203,6 +203,26 @@ section {
     }
 }
 
+@media screen and (max-width: 520px) {
+    .egg-image {
+        width: 60%;
+        height: 60%;
+    }
+
+    #header-egg {
+        width: 50%;
+        height: 50%;
+    }
+
+    body {
+        font-size: 60%;
+    }
+
+    nav {
+        font-size: 60%;
+    }
+}
+
 @media screen and (max-width: 420px) {
     .egg-image {
         width: 80%;
